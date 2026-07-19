@@ -1,0 +1,1 @@
+model:name: bert-base-multilingual-casedtraining:epochs: 20batch_size: 16learning_rate: 1e-5optimizer: AdamWdropout: 0.3weight_decay: 0.01max_length: 64loss:disease_weight: 0.4advisory_weight: 0.3entity_weight: 0.3seed: 42languages:EnglishHindiKannadatranslation:enabled: falseoptional_for_low_confidence: true

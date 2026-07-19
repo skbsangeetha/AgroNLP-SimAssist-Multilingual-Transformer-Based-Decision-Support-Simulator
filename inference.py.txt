@@ -1,0 +1,1 @@
+query = input("Enter farmer query: ")prediction = model.predict(query)print(prediction["Disease"])print(prediction["Advisory"])print(prediction["Entities"])
